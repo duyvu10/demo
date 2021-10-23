@@ -2,7 +2,7 @@ import calc as ca
 
 
 def test_add(x, y):
-    if(calc.add(x, y) == x+y):
+    if(ca.add(x, y) == x+y):
         return True
     else:
         return False
