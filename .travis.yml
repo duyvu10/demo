@@ -1,0 +1,15 @@
+languague: python
+
+install: echo installed
+
+script: python pytest.py
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: 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
+  keep_history: true
+  on:
+    branch: master
+  repo: duyvu10/demo
+  target_branch: master
